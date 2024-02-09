@@ -1,5 +1,7 @@
 import React from "react";
 import "./header.css";
+import { FaHeart } from "react-icons/fa";
+import { FaBagShopping } from "react-icons/fa6";
 import Logo from "./img/logo.png";
 function Header() {
   return (
@@ -14,7 +16,10 @@ function Header() {
           <a href="/" className="nav-item">About</a>
           <a href="/" className="nav-item">Contact</a>
         </div>
-        <div className="cart-icon">Cart Icon</div>
+        <div className="cart-icon">
+          <a ><FaHeart /></a>
+          <FaBagShopping />
+        </div>
       </div>
     </div>
   );
