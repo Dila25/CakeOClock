@@ -1,0 +1,10 @@
+.background {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    height: 100vh; /* Use vh for viewport height to cover the entire screen */
+    background-image: url('./img/bk.png'); /* Adjust the path based on your folder structure */
+    background-size: cover;
+    background-position: center;
+}
