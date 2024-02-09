@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Header from "../Header/Header";
+import "./Login.css";
 
-function Loging() {
+function Login() {
   return (
     <div>
-      <h2>shami</h2>
+      <div className="background">
+        <Header />
+        {/* Add your login form or content here */}
+      </div>
     </div>
-  )
+  );
 }
 
-export default Loging
+export default Login;
