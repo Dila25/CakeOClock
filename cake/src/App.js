@@ -2,9 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router";
 import "./App.css";
 import Home from "./Components/Home/Home";
-
 import Header from "./Components/Header/Header";
-
 import Login from "./Components/Login/Login";
 import SignUp from "./Components/SignUp/SignUp";
 import Cart from "./Components/Cart/Cart";
