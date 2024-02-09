@@ -3,7 +3,9 @@ import "./header.css";
 import { FaHeart } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
+import { MdArrowDropDown } from "react-icons/md";
 import Logo from "./img/logo.png";
+import NavName from "./img/name.png";
 function Header() {
   return (
     <div>
@@ -11,12 +13,13 @@ function Header() {
         <div className="logo">
           <img src={Logo} alt="logo" className="cakelogo" />
         </div>
+        
         <div className="nav-names">
           <a href="/" className="nav-item">
             Home
           </a>
           <a href="/" className="nav-item">
-            Cake
+            Cake <MdArrowDropDown className="nav-item-drop" />
           </a>
           <a href="/" className="nav-item">
             About
@@ -26,10 +29,21 @@ function Header() {
           </a>
         </div>
         <div className="cart-icon">
-      
-         <span className="iconmain"> <FaHeart className="left-icon" /></span>
-         <span className="iconmain"> <FaBagShopping className="left-icon" /></span>
-         <span className="iconmain"><FaUser className="left-icon" /></span>
+          <span className="iconmain">
+            <FaHeart className="left-icon" />
+          </span>
+          <span className="iconmain">
+            <FaBagShopping className="left-icon" />
+          </span>
+          <span className="iconmain">
+            <FaUser className="left-icon" />
+          </span>
+        </div>
+      </div>
+      <div className="nav-body">
+        <div>
+          <img src={NavName} alt="Nav Name" className="nav-name-logo" /><br></br>
+          <button className="bake-btn">Bake It..</button>
         </div>
       </div>
     </div>

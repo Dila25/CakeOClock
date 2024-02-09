@@ -31,22 +31,20 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
+  padding:0 10px;
   color: #fff;
 }
-
-.logo {
-  font-size: 1.5rem;
-}
-
 .nav-names {
   flex-grow: 1;
   text-align: center;
-  margin: 20px 0;
+  padding: 30px 0;
 }
 
 .cakelogo {
-  width: 150px;
+  width: 250px;
+  position: absolute;
+  top: 0px;
 }
 .nav-item {
   font-size: 25px;
@@ -56,12 +54,32 @@
   font-weight: bold;
   cursor: pointer;
 }
+.nav-item-drop {
+  font-size: 30px;
+}
 .left-icon {
   color: #494346;
   font-size: 30px;
-  margin: 20px 0;
   cursor: pointer;
 }
 .iconmain {
   margin: 0 15px;
+}
+
+.nav-name-logo{
+  width: 600px;
+  margin: 20px 0;
+}
+.nav-body{
+  text-align: center;
+}
+.bake-btn{
+  margin: 20px 0;
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 0;
 }
