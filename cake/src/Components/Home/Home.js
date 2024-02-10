@@ -4,10 +4,18 @@ import catimg1 from "./img/Rectangle 19.png";
 import catimg2 from "./img/Rectangle 21.png";
 import catimg3 from "./img/Rectangle 23.png";
 import catimg4 from "./img/Rectangle 24.png";
+import seaimg1 from "./img/Rectangle 13.png";
+import seaimg2 from "./img/Rectangle 14.png";
+import seaimg3 from "./img/Rectangle 15.png";
+import seaimg4 from "./img/Rectangle 16.png";
 import collectionimg from "./img/product.png";
 import about from "./img/about.png";
+import outlet from "./img/outlet.png";
 import { FaBagShopping } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
+import Footer from "../Footer/Footer"
 import "./home.css";
+
 function Home() {
   return (
     <div>
@@ -80,7 +88,7 @@ function Home() {
               </div>
             </div>
           </div>
-          {/* {Everyone Us Section } */}
+          {/* {Everyone Section } */}
           <div className="everyone">
             <h1 className="everyone-topic">A Price To Suit Everyone</h1>
             <p className="everyone-para">
@@ -89,30 +97,136 @@ function Home() {
               penatibus et magnis dis parturient montes, nascetur ridiculus{" "}
             </p>
           </div>
-             {/* {About Us Section } */}
-             <div className="about-bk">
+          {/* {Outlets Section } */}
+          <div className="Outlets-bk">
             <div className="collection">
-              <div className="collection-colum1">
-                <h1 className="about-topic">About Us</h1>
-                <p className="about-para">
-                  Coconuts are tropical fruits with a hard outer <br></br> husk,
-                  a tough shell, and a deliciously sweet <br></br> , creamy
-                  flesh inside. They are widely known <br></br> for their
-                  versatility, providing coconut water, milk,<br></br> oil, and
-                  grated coconut for culinary use. <br></br> Coconuts are a rich
-                  source of healthy fats,<br></br> fiber, and essential
-                  minerals, making them a <br></br> nutritious addition to
-                  various dishes and<br></br>
+              <div className="outlet-colum2">
+                <img src={outlet} alt="logo" className="img-outlet"></img>
+              </div>
+              <div className="outlet-colum1">
+                <h1 className="Outlets-topic">Outlets</h1>
+                <p className="Outlets-para">
+                  Coconuts are tropical fruits with a hard outer husk, a tough
+                  shell, and a deliciously sweet , creamy flesh inside. They are
+                  widely known for their versatility, providing coconut water,
+                  milk, oil, and grated coconut for culinary use. Coconuts are a
+                  rich source of healthy fats fiber, and essential minerals,
+                  making them a nutritious addition to various dishes an
                   beverages.
                 </p>
-                <button className="btnabout">Taste Drive</button>
-              </div>
-              <div className="collection-colum2">
-                <img src={about} alt="logo" className="img-coll"></img>
+                <button className="btnOutlets">Taste Drive</button>
               </div>
             </div>
           </div>
+          {/* {Seasons Section } */}
+          <div>
+            <h1 className="seasons-topic">
+              Seasons Special
+              <span className="seasons-sub-topic"> From Our Bakers</span>
+            </h1>
+            <div className="seasons">
+              <div>
+                <div className="sea-box">
+                  <div className="seasons-card">
+                    <img src={seaimg1} alt="seasons-img" className="seaimg" />
+                    <p className="sea-img-name">Brownie mousse cake</p>
+                    <div class="rating">
+                      <label className="rating-star" for="star5">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star4">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star3">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star2">
+                        ★
+                      </label>
+
+                      <label className="rating-star" for="star1">
+                        ★
+                      </label>
+                    </div>
+                  </div>
+                  <div className="seasons-card">
+                    <img src={seaimg2} alt="seasons-img" className="seaimg" />
+                    <p className="sea-img-name">Layered strwberry delight</p>
+                    <div class="rating">
+                      <label className="rating-star" for="star5">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star4">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star3">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star2">
+                        ★
+                      </label>
+
+                      <label className="rating-star" for="star1">
+                        ★
+                      </label>
+                    </div>
+                  </div>
+                  <div className="seasons-card">
+                    <img src={seaimg3} alt="seasons-img" className="seaimg" />
+                    <p className="sea-img-name">choco cheese brownie</p>
+                    <div class="rating">
+                      <label className="rating-star" for="star5">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star4">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star3">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star2">
+                        ★
+                      </label>
+
+                      <label className="rating-star" for="star1">
+                        ★
+                      </label>
+                    </div>
+                  </div>
+                  <div className="seasons-card">
+                    <img src={seaimg4} alt="seasons-img" className="seaimg" />
+                    <p className="sea-img-name">caramel brownie</p>
+                    <div class="rating">
+                      <label className="rating-star" for="star5">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star4">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star3">
+                        ★
+                      </label>
+                      <label className="rating-star" for="star2">
+                        ★
+                      </label>
+
+                      <label className="rating-star" for="star1">
+                        ★
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="btn-view-more">
+              <button className="btn-view">
+                View More
+                <FaArrowRight className="btn-view-icon" />
+              </button>
+            </div>
+          </div>
         </div>
+        <Footer/>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  height: 880vh;
+  height: 790vh;
   background-image: url("./img/bkk.png"); /* Adjust the path based on your folder structure */
   background-size: cover;
   background-position: center;
@@ -18,7 +18,7 @@
 
 /*slider*/
 .slider {
-  height: 170vh;
+  height: 150vh;
 }
 /*CATEGORIES*/
 .catimg {
@@ -152,6 +152,152 @@
 }
 .everyone-para {
   font-size: 20px;
-margin: 10px 0 0 0;
+  margin: 10px 0 0 0;
   font-family: "Roboto", sans-serif;
+}
+/*Outlets*/
+.Outlets-bk {
+  background-image: url("./img/Coconut.png");
+  padding: 2px 0;
+}
+.Outlets {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+}
+.Box-1-Outlets {
+  width: 40%;
+  padding: 50px;
+}
+
+.Outlets-topic {
+  color: #282526;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.Outlets-para {
+  color: #282526;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 22px;
+  margin: 20px 0 0 0;
+}
+.btnOutlets {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 0;
+  color: #201c1ed6;
+  font-size: 20px;
+  margin: 50px 0;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.img-outlet {
+  width: 500px;
+  height: 530px;
+}
+.outlet-colum1 {
+  width: 600px;
+  padding: 0 0 0 130px;
+}
+/*Seasons*/
+.seasons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+
+  border: 0;
+}
+.seaimg {
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+}
+.sea-topic {
+  font-weight: bold;
+  font-size: 45px;
+  margin: 10px;
+  color: #201c1e;
+  text-align: center;
+  font-family: "Copperplate Gothic Light", sans-serif;
+}
+.sea-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+.seasons-topic {
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  margin: 50px;
+  font-size: 30px;
+}
+.seasons-sub-topic {
+  color: white;
+  font-family: roboto;
+  font-weight: 300;
+}
+.seasons-card {
+  background-color: white;
+  margin: 0 20px;
+  padding: 2px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.sea-img-name {
+  text-transform: capitalize;
+  color: #4e281b;
+  font-family: roboto;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin: 5px 0 0 0;
+  font-style: italic;
+}
+
+.rating {
+  display: inline-block;
+  margin: 5px 0 0 0;
+}
+
+.rating .rating-star {
+  font-size: 30px;
+  color: #ffcc00;
+  cursor: pointer;
+}
+
+.btn-view-more {
+  position: relative;
+  text-align: end;
+  margin: 50px 190px 0 0;
+}
+.btn-view {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  padding: 5px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-view-icon {
+  margin: 0 0 0 8px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
 }
