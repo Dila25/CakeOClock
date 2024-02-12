@@ -13,9 +13,15 @@ function Header() {
         <div className="logo">
           <img src={Logo} alt="logo" className="cakelogo" />
         </div>
-        
+
         <div className="nav-names">
-          <a href="/" className="nav-item">
+          <a
+            href="#home"
+            className="nav-item"
+            onClick={() => {
+              window.location.href = "/";
+            }}
+          >
             Home
           </a>
           <a href="/" className="nav-item">
@@ -36,14 +42,27 @@ function Header() {
             <FaBagShopping className="left-icon" />
           </span>
           <span className="iconmain">
-            <FaUser className="left-icon" />
+            <FaUser
+              className="left-icon"
+              onClick={() => {
+                window.location.href = "/Login";
+              }}
+            />
           </span>
         </div>
       </div>
       <div className="nav-body">
         <div>
-          <img src={NavName} alt="Nav Name" className="nav-name-logo" /><br></br>
-          <button className="bake-btn">Bake It..</button>
+          <img src={NavName} alt="Nav Name" className="nav-name-logo" />
+          <br></br>
+          <button
+            className="bake-btn"
+            onClick={() => {
+              window.location.href = "/request";
+            }}
+          >
+            Bake It..
+          </button>
         </div>
       </div>
     </div>

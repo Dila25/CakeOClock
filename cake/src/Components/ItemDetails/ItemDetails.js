@@ -137,9 +137,23 @@ function ItemDetails() {
                   required
                 />
                 <br></br>
-                <button className="Add-To-Cart-btn">Add To Cart</button>
+                <button
+                  className="Add-To-Cart-btn"
+                  onClick={() => {
+                    window.location.href = "/cart";
+                  }}
+                >
+                  Add To Cart
+                </button>
                 <br></br>
-                <button className="Buy-Now-btn">Buy Now</button>
+                <button
+                  className="Buy-Now-btn"
+                  onClick={() => {
+                    window.location.href = "/payment";
+                  }}
+                >
+                  Buy Now
+                </button>
               </form>
             </div>
           </div>

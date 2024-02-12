@@ -158,7 +158,8 @@ function Cart() {
                   </div>
                 </div>
                 <p className="paraempty">
-                  Cart feels empty? <span className="paraempty-shop"> Shop More</span>
+                  Cart feels empty?{" "}
+                  <span className="paraempty-shop"> Shop More</span>
                 </p>
               </div>
               <div className="right-colum-dis">
@@ -200,7 +201,14 @@ function Cart() {
                       <br></br>
                     </form>
                     <div className="box-btn">
-                      <button className="inputtn">CHECKOUT</button>
+                      <button
+                        className="inputtn"
+                        onClick={() => {
+                          window.location.href = "/payment";
+                        }}
+                      >
+                        CHECKOUT
+                      </button>
                     </div>
                   </div>
                 </div>

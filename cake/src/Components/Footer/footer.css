@@ -36,35 +36,35 @@
   cursor: pointer;
 }
 
-.footer-nav-set{
-    font-size: 16px;
-    color: #474747;
-    cursor: pointer;
+.footer-nav-set {
+  font-size: 16px;
+  color: #474747;
+  cursor: pointer;
 }
-.footer-nav-topic{
-    margin: 10px 0;
+.footer-nav-topic {
+  margin: 10px 0;
 }
-.footer-left-bottom-icon{
-    font-size: 20px;
-    margin: 0 8px;
+.footer-left-bottom-icon {
+  font-size: 20px;
+  margin: 0 8px;
 }
-.footer-left-bottom-name{
-    font-size: 20px;
+.footer-left-bottom-name {
+  font-size: 20px;
 }
-.icon-footer{
-    color: white;
-    background-color: #474747;
-    padding: 10px;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    margin: 0 8px;
-    font-size: 25px;
-    cursor: pointer;
+.icon-footer {
+  color: white;
+  background-color: #474747;
+  padding: 10px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
-.icon-footer-topic{
-    font-weight: bold;
-    margin: 0 8px;
-    font-size: 25px;
+.icon-footer-topic {
+  font-weight: bold;
+  margin: 0 8px;
+  font-size: 25px;
 }

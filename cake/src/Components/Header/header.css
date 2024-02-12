@@ -32,7 +32,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0 10px;
+  padding: 0 10px;
   color: #fff;
 }
 .nav-names {
@@ -66,14 +66,14 @@
   margin: 0 15px;
 }
 
-.nav-name-logo{
+.nav-name-logo {
   width: 600px;
   margin: 20px 0;
 }
-.nav-body{
+.nav-body {
   text-align: center;
 }
-.bake-btn{
+.bake-btn {
   margin: 20px 0;
   color: black;
   font-weight: bolder;

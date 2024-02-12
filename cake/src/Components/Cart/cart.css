@@ -267,15 +267,15 @@
   margin: 10px 0;
   justify-content: space-between;
 }
-.paraempty{
-    font-weight: bold;
-    color: #5c5b5b;
-    text-align: start;
+.paraempty {
+  font-weight: bold;
+  color: #5c5b5b;
+  text-align: start;
 }
-.paraempty-shop{
-    color: black;
-cursor: pointer;
-    text-decoration: underline;
+.paraempty-shop {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
 }
 @media (max-width: 768px) {
   .right-colum-price-name,

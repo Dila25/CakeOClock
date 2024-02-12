@@ -13,15 +13,14 @@ import Request from "./Components/Request/Request";
 function App() {
   return (
     <div>
-      
       <React.Fragment>
         <Routes>
-          <Route path="/" element={<Cart />} />
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/itemDetails" element={<ItemDetails />} />
-          <Route path="/productlist" element={<ProductList/>} />  
+          <Route path="/productlist" element={<ProductList />} />
           <Route path="/request" element={<Request />} />
           <Route path="/payment" element={<Payment />} />
         </Routes>

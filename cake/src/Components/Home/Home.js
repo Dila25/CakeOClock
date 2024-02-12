@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Header/Header";
 import catimg1 from "./img/Rectangle 19.png";
 import catimg2 from "./img/Rectangle 21.png";
@@ -13,17 +13,58 @@ import about from "./img/about.png";
 import outlet from "./img/outlet.png";
 import { FaBagShopping } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
-import Footer from "../Footer/Footer"
+import Footer from "../Footer/Footer";
 import "./home.css";
 
 function Home() {
+  useEffect(() => {
+    const radioButtons = document.querySelectorAll("input[type=radio]");
+    let currentIndex = 0;
+
+    const slideShow = () => {
+      setInterval(() => {
+        radioButtons[currentIndex].checked = true;
+        currentIndex = (currentIndex + 1) % radioButtons.length;
+      }, 5000); // Change the interval to 5000 milliseconds (5 seconds)
+      
+    };
+
+    slideShow();
+  }, []);
+
   return (
     <div>
       <div className="background2">
         <Header />
+        <br/> <br/> <br/> <br/>
         <div className="full-bdy">
           {/* {Slider Section } */}
-          <div className="slider"></div>
+          <div className="slider">
+            <section id="slider">
+              <input type="radio" name="slider" id="s1" checked className="slider-input"/>
+              <input type="radio" name="slider" id="s2" className="slider-input" />
+              <input type="radio" name="slider" id="s3" className="slider-input" />
+              <input type="radio" name="slider" id="s4" className="slider-input" />
+              <input type="radio" name="slider" id="s5"  className="slider-input"/>
+
+              <label className="slider-label"  for="s1" id="slide1">
+             
+              </label>
+              <label className="slider-label"  for="s2" id="slide2">
+                
+              </label>
+              <label className="slider-label"  for="s3" id="slide3">
+                
+              </label>
+              <label className="slider-label"  for="s4" id="slide4">
+                
+              </label>
+              <label className="slider-label"  for="s5" id="slide5">
+                
+              </label>
+            </section>
+          </div>
+          <br/> <br/> <br/> <br/><br/> <br/> <br/> <br/>
           {/* {CATEGORIES Section } */}
           <div className="catagoris">
             <div>
@@ -56,7 +97,12 @@ function Home() {
                 you can explore ans shop many differnt collection <br></br> from
                 various barands here.
               </p>
-              <button className="btnshop">
+              <button
+                className="btnshop"
+                onClick={() => {
+                  window.location.href = "/productlist";
+                }}
+              >
                 <FaBagShopping className="shop-icon" />
                 Shop Now
               </button>
@@ -226,7 +272,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
