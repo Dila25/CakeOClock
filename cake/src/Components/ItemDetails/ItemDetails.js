@@ -56,7 +56,7 @@ function ItemDetails() {
                   {imgs.map((data, i) => (
                     <div className="subnimg">
                       <img
-                        className={sliderData.id == i ? "clicked" : ""}
+                        className={sliderData.id === i ? "clicked" : ""}
                         key={data.id}
                         src={data.value}
                         onClick={() => handlClick(i)}
