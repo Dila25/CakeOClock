@@ -1,0 +1,265 @@
+.request-section-left {
+  width: 598px; /* Fixed width */
+  padding: 0 16px; /* Adjust padding as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.request-label {
+  width: 598px; /* Fixed width */
+  height: 86px; /* Fixed height */
+  top: 549px;
+  left: 74px;
+  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.request-dropdown,
+.request-date-input,
+.request-message-input,
+.request-image-input {
+  width: 599px; /* Fixed width */
+}
+
+.request-dropdown {
+  height: 55px; /* Fixed height */
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px;
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-date-input {
+  height: 50px; /* Fixed height */
+  top: 667px;
+  left: 72px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px 56px 12px 40px;
+  margin-top: 12px; /* Adjust margin as needed */
+  opacity: 0.6;
+}
+
+.request-message-input {
+  height: 210px; /* Fixed height */
+  top: 728px;
+  left: 74px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px;
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-image-input {
+  height: 50px; /* Fixed height */
+  top: 952px;
+  left: 72px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px 56px 12px 40px;
+  margin-top: 16px; /* Adjust margin as needed */
+  opacity: 60%;
+}
+
+
+.request-section-right {
+  width: 598px; /* Adjust width as needed */
+  padding: 0 16px; /* Adjust padding as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.pickup-heading,
+.delivery-heading {
+  width: 306px; /* Fixed width */
+  height: 61px; /* Fixed height */
+  top: 551px; /* Adjust top position as needed */
+  left: 874px; /* Adjust left position as needed */
+  display: flex;
+  align-items: center;
+}
+
+.request-radio-label {
+  margin-left: 8px; /* Adjust margin as needed */
+}
+
+.request-label {
+  width: 507px; /* Fixed width */
+  height: 59px; /* Fixed height */
+  top: 593px; /* Adjust top position as needed */
+  left: 821px; /* Adjust left position as needed */
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px;
+  margin-top: 16px; /* Adjust margin as needed */
+}.request-section-left {
+  width: 598px; /* Fixed width */
+  padding: 0 16px; /* Adjust padding as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.request-label {
+  width: 598px; /* Fixed width */
+  height: 86px; /* Fixed height */
+  top: 549px;
+  left: 74px;
+  gap: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.request-dropdown,
+.request-date-input,
+.request-message-input,
+.request-image-input {
+  width: 599px; /* Fixed width */
+}
+
+.request-dropdown {
+  height: 55px; /* Fixed height */
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px;
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-date-input {
+  height: 50px; /* Fixed height */
+  top: 667px;
+  left: 72px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px 56px 12px 40px;
+  margin-top: 12px; /* Adjust margin as needed */
+  opacity: 0.6;
+}
+
+.request-message-input {
+  height: 210px; /* Fixed height */
+  top: 728px;
+  left: 74px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px;
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-image-input {
+  height: 50px; /* Fixed height */
+  top: 952px;
+  left: 72px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px 56px 12px 40px;
+  margin-top: 16px; /* Adjust margin as needed */
+  opacity: 60%;
+}
+
+.request-section-right {
+  width: 598px; /* Adjust width as needed */
+  padding: 0 16px; /* Adjust padding as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.pickup-heading,
+.delivery-heading {
+  width: 306px; /* Fixed width */
+  height: 61px; /* Fixed height */
+  top: 551px; /* Adjust top position as needed */
+  left: 874px; /* Adjust left position as needed */
+  display: flex;
+  align-items: center;
+}
+
+.request-radio-label {
+  margin-left: 8px; /* Adjust margin as needed */
+}
+
+.request-label {
+  width: 507px; /* Fixed width */
+  height: 59px; /* Fixed height */
+  top: 593px; /* Adjust top position as needed */
+  left: 821px; /* Adjust left position as needed */
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 12px;
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-dropdown {
+  width: calc(100% - 16px); /* Fill the width of the parent container */
+}
+
+.request-pickup-radio,
+.request-delivery-radio {
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-address-box,
+.contact-number-box {
+  width: 508px; /* Fixed width */
+  height: auto; /* Adjust height as needed */
+  top: 726px; /* Adjust top position as needed */
+  left: 820px; /* Adjust left position as needed */
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 12px;
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-address-box p,
+.contact-number-box p {
+  margin: 0;
+}
+
+.request-edit-link {
+  display: block;
+  margin-top: 8px; /* Adjust margin as needed */
+  color: blue;
+}
+
+
+.request-dropdown {
+  width: calc(100% - 16px); /* Fill the width of the parent container */
+}
+
+.request-pickup-radio,
+.request-delivery-radio {
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-address-box,
+.contact-number-box {
+  width: 508px; /* Fixed width */
+  height: auto; /* Adjust height as needed */
+  top: 726px; /* Adjust top position as needed */
+  left: 820px; /* Adjust left position as needed */
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 12px;
+  margin-top: 16px; /* Adjust margin as needed */
+}
+
+.request-address-box p,
+.contact-number-box p {
+  margin: 0;
+}
+
+.request-edit-link {
+  display: block;
+  margin-top: 8px; /* Adjust margin as needed */
+  color: blue;
+}
+
+.request-section-left {
+  width: 598px; /* Fixed width */
+  padding: 0 16px; /* Adjust padding as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.request-section-right {
+  width: 598px; /* Fixed width */
+  padding: 0 16px; /* Adjust padding as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Your existing CSS styles for individual elements */
